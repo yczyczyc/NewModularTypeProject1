@@ -343,7 +343,7 @@ const shapes = {
                 ray.currentWidth = p.lerp(ray.currentWidth, ray.targetWidth, 0.1); // Adjust the lerp factor for smoother transition
         
                 // Draw the ray as a line with variable width
-                p.stroke(220,160,150); // Green stroke color
+                p.stroke(120,160,0); // Green stroke color
                 p.strokeWeight(ray.currentWidth);
                 p.line(ray.startX, ray.startY, ray.endX, ray.endY);
             }
