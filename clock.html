@@ -13,6 +13,11 @@
     <script src="./clockMain.js"></script>
     <script src="./clock.js"></script>
     <style>
+
+    #zoom-wrapper {
+            transform: scale(0.67);
+            transform-origin: center;
+          }
         #overlay-container {
             position: fixed;
             top: 0;
@@ -57,6 +62,7 @@
       </style>
 </head>
 <body>
+  <div id="zoom-wrapper">
     <!-- <button id="clock-button" type="button">Check Time</button> -->
     <button id="togglePageBtn" type="button"> Specimen</button>
 
@@ -75,5 +81,6 @@
           });
         });
       </script>
-    </body>
+    </div>
+</body>
 </html>
