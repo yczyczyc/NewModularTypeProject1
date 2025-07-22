@@ -13,12 +13,6 @@
     <script src="main.js"></script>
 
     <style>
-
-      #zoom-wrapper {
-        transform: scale(0.67);
-        transform-origin: center;
-      }
-
         #togglePageBtn {
             position: fixed;
             bottom: 2vh;
@@ -49,7 +43,6 @@
       </style>
 </head>
 <body>
-  <div id="zoom-wrapper">
     <button id="togglePageBtn" type="button"> Clock </button>
     <button id="toggleOverlayBtn" type="button">View Letters</button>
     <div id="letter-info-overlay" class="info-overlay">
@@ -76,7 +69,6 @@
             });
             });
     </script>
-</div>
 
 <script>
     document.addEventListener("DOMContentLoaded", () => {
